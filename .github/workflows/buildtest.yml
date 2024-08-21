@@ -43,7 +43,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Run Unit Test with Maven
-      run: mvn -B Test
+      run: mvn -B test
 
   snyk:
     needs: test
